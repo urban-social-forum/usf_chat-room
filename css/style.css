@@ -1,0 +1,333 @@
+
+body {
+    font-size: 16px;
+    color: #fff;
+    /*background-color: #61122f;*/
+    background: url('../img/usf_art_3.png') no-repeat;
+    font-family: 'Lato', sans-serif;
+    background-size: cover;
+
+}
+
+/*    background: url('../img/usf_art.png') no-repeat;
+    background-size: contain;
+
+}*/
+
+#header-nav {
+    background-color: #f4ea3b;
+    border-radius: 0;
+    border: 0;
+}
+
+#logo-img{
+    background:url('../img/logo_usf.png') repeat;
+    width: 100px;
+    height: 100px;
+    margin: 10px 15px 10px 0px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+#logo-img:hover{
+    border: 2px solid gray;
+}
+.navbar-brand{
+    padding-top: 25px;
+}
+
+.navbar-brand h1{
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0px;
+    line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration:none;
+}
+
+.navbar-brand p{
+    color: white;
+    font-size: 1.1em;
+    text-shadow: 1px 1px 1px rgba(1,1,1,.7);
+    margin-top: 20px;
+    margin-bottom: 0;
+    line-height: .75;
+}
+.navbar-brand p span{
+    vertical-align: middle;
+}
+
+#nav-list{
+    margin-top: 10px;
+}
+
+#nav-list a {
+    color: black;
+    text-align:center;
+    font-size: 1.1em;
+}
+#nav-list a:hover {
+    color: white;
+    text-shadow: 0px .5px .5px  rgba(1,1,1,.7);
+}
+#nav-list li:last-child a {
+    background-color: #16b5f4;
+    color: white;
+    border: 1px solid rgba(255,255,255,.8);
+    text-align:center;
+    border-radius: 10px;
+    font-size: 1.0em;
+    padding: 7px;
+    margin: 0px 30px 15px 0px;
+}
+#nav-list li:last-child a:hover {
+    color: black;
+    border: 1px solid #16b5f4;
+    background-color: white;
+    text-shadow: 0px 0px 0px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid black;
+}
+.navbar-header button.navbar-toggle{
+    clear: both;
+    margin-top: -30px;
+}
+
+.container #main-video{
+    height: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: middle;
+}
+.container .vp{
+    padding: 70px 0px 100px 0px;
+    margin: 0px 0px 0px 0px;
+}
+.container .panel-video h2{
+    font-size: 1.5em;
+    text-align: middle;
+    position: relative;
+    font-weight: bold;
+    color: black;
+    text-shadow: 0px 0px 3px rgba(1,1,1,.1);
+    margin: 5px 0px 10px 15px;
+}
+
+.container .panel-video a{
+    border: 1px solid #16b5f4;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    width: 80px;
+    font-size: .8em;
+    line-height: .9;
+    font-weight: bold;
+    background-color: #12a5f4;
+    margin: 5px 20px 10px auto;
+    float: right;
+}
+
+.container .panel-video a:hover, .container .panel-video a:focus{
+    text-decoration:none;
+    background-color: white;
+    box-shadow: 0px 0px 1px black;
+    color: black;
+
+}
+
+.container .panel-video #home-tiles a{
+    border: 1px solid #16b5f4;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    font-size: .8em;
+    line-height: .9;
+    font-weight: bold;
+    background-color: #12a5f4;
+    margin: 7px auto 7px 0px;
+    float: left;
+}
+
+.container .panel-video #home-tiles a:hover, .container .panel-video #home-tiles a:focus{
+    text-decoration:none;
+    background-color: white;
+    box-shadow: 0px 0px 1px black;
+    color: black;
+
+}
+
+.container .panel-video p{
+    font-size: .9em;
+    max-width: 95%;
+    margin: 0px 0px 0px 6px;
+    text-align: left;
+    color: black;
+    line-height: 1.4;
+}
+.container .panel-video span{
+    font-size: .8em;
+    max-width: 95%;
+    margin: 0px 0px 0px 6px;
+    text-align: left;
+    color: black;
+    line-height: 1.4;
+    font-style: italic;
+}
+
+.panel-video {
+    background-color:rgba(255,255,255,.7);
+    padding: 5px 10px 10px 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(1,1,1,.5);
+    margin-top: 30px;
+}
+
+.panel-video:hover {
+      background-color: rgba(244, 234, 59, .9);
+}
+
+#opening{
+    max-width: 710px;
+    margin: auto;
+    height: 100%;
+}
+
+#closing{
+    max-width: 710px;
+    margin: 30px auto auto auto;
+    height: 100%;
+}
+
+#botones{
+    margin: 40px auto 40px 25%;
+}
+
+#botones a {
+    padding: 10px;
+    float: left;
+    font-size: 1.3em;
+    border-radius: 7px;
+    border: 1px solid white;
+    text-decoration: none;
+    color: black;
+    background-color: rgba(244, 234, 59, .9); 
+}
+
+#botones a:hover {
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
+
+/*large devices*/
+@media (min-width: 1200px){
+
+}
+/*medium devices*/
+@media (min-width: 992px) and (max-width: 1199px){
+    .navbar-brand h1{
+        color: white;
+        font-size: 2em;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px #222;
+        margin-top: 0;
+        margin-bottom: 0px;
+        line-height: .75;
+    }
+    .navbar-brand p{
+        color: white;
+        font-size: .9em;
+        text-shadow: 1px 1px 1px #222;
+        margin-top: 20px;
+        margin-bottom: 0;
+        line-height: .75;
+    }
+    .row div {
+    margin-bottom: 15px;
+    }
+
+}
+/*small devices*/
+@media (min-width: 768px) and (max-width: 991px){
+    .navbar-brand{
+        height: 100px;
+    }
+    .navbar-brand h1{
+        color: white;
+        font-size: 2em;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px #222;
+        margin-top: 0;
+        margin-bottom: 0px;
+        line-height: .75;
+    }
+    .navbar-brand p{
+        color: white;
+        font-size: .9em;
+        text-shadow: 1px 1px 1px #222;
+        margin-top: 20px;
+        margin-bottom: 0;
+        line-height: .75;
+         }
+    .row div {
+    margin-bottom: 15px;
+    }
+    .container .vp{
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+        }
+}
+/*extra small devices*/
+@media (max-width: 767px){
+    .navbar-brand{
+        padding-top: 10px;
+        height: 80px;
+    }
+    .navbar-brand h1{
+        padding-top: 10px;
+        font-size: 7vw;
+    }
+    .navbar-brand p{
+        font-size: .8em;
+        margin-top: 12px;
+    }
+    #collapsable-nav a{
+        font-size: .9em;
+        font-weight: bold;
+    }
+    #botones a { 
+    font-size: .7em;
+    }
+    .row div {
+    margin-bottom: 15px;
+    }
+    .container .vp{
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    }
+    .container .panel-video a{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    width: 70px;
+    font-size: .7em;
+    line-height: .9;
+    font-weight: bold;
+    background-color: #f4ea3b;
+    margin: auto auto 5px 20px;
+    float: left;
+    }
+    #nav-list li:last-child a {
+    margin: 0px 0px 0px 0px;
+}
+}
