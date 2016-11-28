@@ -100,12 +100,24 @@ body {
     clear: both;
     margin-top: -30px;
 }
- #btitle > span{
-        font-size: 1.05em;
+ 
+ #btitle {
+        font-weight: italic;
+       
+    }
+#btitle > span{
+        font-size: 1.0em;
         color: black;
+        font-weight: italic;
         background-color: white;
         line-height: 1.3;
-        font-weight: bold;
+    }
+#btitle > span > a{
+        font-size: 1.0em;
+        color: #16b5f4;
+        font-weight: italic;
+        background-color: white;
+        line-height: 1.3;
     }
 hr {
     display: block;
